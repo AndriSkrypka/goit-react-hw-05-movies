@@ -26,7 +26,7 @@ export const Navigation = () => {
               isActive ? styles.activeNavLink : styles.navLink
             }
             state={{ from: location }}
-            to="/movies"
+            to="/goit-react-hw-05-movies/movies"
           >
             Movies
           </NavLink>

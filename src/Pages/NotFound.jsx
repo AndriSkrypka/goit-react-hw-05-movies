@@ -6,7 +6,7 @@ const NotFound = () => {
   return (
     <div>
       <h3>
-        404 Page not found, <Link to="/">Go to Home Page</Link>
+        404 Page not found, <Link to="/goit-react-hw-05-movies/">Go to Home Page</Link>
       </h3>
     </div>
   );

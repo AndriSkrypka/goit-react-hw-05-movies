@@ -59,7 +59,7 @@ const Movies = () => {
             {searchFilm.map(el => {
               return (
                 <li key={el.id}>
-                  <Link state={{ from: location }} to={`/movies/${el.id}`}>
+                  <Link state={{ from: location }} to={`/goit-react-hw-05-movies/movies/${el.id}`}>
                     <img
                       width="500"
                       src={
