@@ -15,7 +15,7 @@ export const Navigation = () => {
             className={({ isActive }) =>
               isActive ? styles.activeNavLink : styles.navLink
             }
-            to="/"
+            to="/goit-react-hw-05-movies/"
           >
             Home
           </NavLink>
